@@ -1,0 +1,6 @@
+#!/bin/bash
+
+#when the iPhone is unplugged, it is not automatically unmounted.
+umount /media/iPhone 
+ifuse /media/iPhone
+ipheth_pair
